@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    height: 100vh;
+}
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    border-radius: 23px;
+    height: 50px;
+    top: 3px;
+    position:sticky;
+    transform: inherit;
+    
+  }
+  .navbar a {
+    float: inline-start;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 13px;
+
+  }
+  .navbar a:hover {
+    background-color:	#2dd2a9;
+    
+  }
+.navbar h1{
+    text-align: center;
+    color: white;
+    font-family: algerian;
+    text-shadow:black;
+    transform: inherit;
+}
+.cards{
+    width: 22%;
+    background-color:rgb(68, 228, 68);
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 4px 4px 25px orange;
+    display: inline-table;
+    transform-origin: inherit;
+
+}
+.image img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.title{
+    text-align: center;
+    padding-bottom: 5px;
+    transform-origin: inherit;
+}
+.des{
+    text-align: center;
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: whitesmoke;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    padding: 6px;
+    cursor: pointer;
+    width: 30%;
+    transition: 0.5s;
+    transform-origin: inherit;
+}
+button:hover{
+    width: 80%;
+    background-color: black;
+    color: white;
+    
+   
+    
+}

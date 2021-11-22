@@ -1,0 +1,83 @@
+*{
+  margin: auto;
+  padding: auto;
+  background-image: url(./images/fort-4782737_1920.jpg);
+ 
+  
+}
+
+ 
+  
+
+
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    border-radius: 23px;
+    position: sticky;
+    top: 3px;
+    height: 50px;
+    border: 1px;
+    
+    
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 16px;
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 13px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: rgb(9, 27, 82);
+    border-radius: 3px;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color:	#85e0b3;
+    
+  }
+
+  .navbar input[type=text]{
+    
+    display: block;
+    text-align: left;
+    align-items:center;
+    margin: top 8;
+    padding: 6px;
+    color: white;
+  }
+
+
+  .find input[type=text]{
+    width:230px;
+    height:25px;
+    border-radius:25px;
+    border: 1px;
+    color: white;
+}
+
+  .find{
+    float:right;
+    margin: 7px;
+  }
+
+
+  
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
